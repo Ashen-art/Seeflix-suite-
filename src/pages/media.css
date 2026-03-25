@@ -1,0 +1,35 @@
+.page-media {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  background: #1c1c2e;
+  box-sizing: border-box;
+  padding: 1.5rem 0 3rem;
+}
+
+.page-media-intro {
+  max-width: 52rem;
+  margin: 0 60px 1.25rem;
+  color: #c9c6e0;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+/* Grille uniquement sur la route /media (sans modifier MediaList.jsx) */
+.page-media--grid .media-list {
+  padding-bottom: 3rem;
+}
+
+.page-media--grid .media-list-items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  justify-items: stretch;
+  overflow: visible;
+  padding: 12px 8px 24px;
+}
+
+.page-media--grid .media-list-items .media-card {
+  width: 100%;
+  max-width: none;
+}

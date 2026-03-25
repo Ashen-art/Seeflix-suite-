@@ -1,0 +1,57 @@
+.media-card {
+    min-width: 250px;
+    width: 100%;
+    /* max-width: 300px; */
+    width: 250px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid #ffffff47;
+    box-shadow: 5px 5px 10px #000;
+    cursor: pointer;
+}
+
+.md-c-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.md-c-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent 0% , #000 45%, #000 100%);
+}
+
+.c-title {
+    font-weight: 400;
+    margin: 0.35rem 0 0.15rem;
+}
+
+.c-type {
+    margin: 0 0 0.25rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.media-card--movie .c-type {
+    color: #c4b5fd;
+}
+
+.media-card--tvshow .c-type {
+    color: #7ee8d8;
+}
+
+.c-rating {
+    font-weight: 300;
+    margin: 0 0 0.5rem;
+}

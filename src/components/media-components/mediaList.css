@@ -1,0 +1,26 @@
+.media-list {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+}
+
+.media-list-title {
+    color: #e7e4e4;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0 8px;
+}
+
+.media-list-items {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    gap: 16px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: 3px 12px;
+    border-radius: 8px;
+}

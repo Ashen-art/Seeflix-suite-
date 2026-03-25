@@ -1,0 +1,73 @@
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.1rem 1.25rem 1.25rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(12, 12, 14, 0.8);
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+}
+
+.f-user-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+
+.f-group {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 6px;
+}
+
+.f-label {
+    line-height: 1.6;
+    font-size: 1.05rem;
+    color: #fff;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+}
+
+.f-input {
+    padding: 12px 11px;
+    width: 100%;
+    background: #171717;
+    border-radius: 4px;
+    border: 1px solid #494949;
+    caret-color: #e3e2e5;
+    color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+.f-input::placeholder {
+    color: #a6a6a6;
+}
+
+.f-input:focus {
+    outline: none;
+    border-color: #b48bff;
+}
+
+.text-area {
+    resize: vertical;
+    min-height: 180px;
+}
+
+.f-btn {
+    border: 1px solid #5e44a2;
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 6px;
+    background: #5e44a2;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: .7px;
+    cursor: pointer;
+}
